@@ -2,6 +2,10 @@
 
 This guide helps you publish this project to GitHub from `D:\Soft computing`.
 
+Before committing anything, each teammate should create their own local virtual environment using:
+- Windows: `.\scripts\setup_windows.ps1`
+- macOS/Linux: `bash ./scripts/setup_unix.sh`
+
 ## 1) Confirm Git Repo Is Initialized
 
 ```powershell

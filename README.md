@@ -48,23 +48,32 @@ docs/
 
 ## 3) Environment Setup (Inside `soft_comp`)
 
-Create and activate your environment:
+### Windows
 
 ```powershell
-python -m venv soft_comp
+.\scripts\setup_windows.ps1
 .\soft_comp\Scripts\activate
 ```
 
-Install dependencies:
+### macOS / Linux
 
-```powershell
+```bash
+bash ./scripts/setup_unix.sh
+source soft_comp/bin/activate
+```
+
+Manual fallback:
+
+```bash
+python3 -m venv soft_comp
+source soft_comp/bin/activate
 python -m pip install -r requirements.txt
 ```
 
 Verify install:
 
-```powershell
-python -c "import torch, cv2, numpy, ultralytics; print('env ready')"
+```bash
+python -m pytest -q
 ```
 
 Note: this project auto-creates a local `.ultralytics` folder in the workspace so YOLO settings stay writable.
@@ -241,6 +250,7 @@ Detailed beginner docs are in:
 - `docs/BEGINNER_QUICKSTART.md`
 - `docs/ARCHITECTURE_EXPLAINED.md`
 - `docs/COMMAND_REFERENCE.md`
+- `docs/CROSS_PLATFORM_SETUP.md`
 - `docs/GITHUB_SETUP.md`
 
 ## 13) GitHub Collaboration

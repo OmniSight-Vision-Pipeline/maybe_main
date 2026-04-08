@@ -16,31 +16,31 @@ Check:
 Get-Location
 ```
 
-## Step 1: Activate the Virtual Environment
+## Step 1: Create The Virtual Environment
+
+On Windows:
 
 ```powershell
+.\scripts\setup_windows.ps1
 .\soft_comp\Scripts\activate
 ```
 
-You should see `(soft_comp)` in your terminal prompt.
+On macOS / Linux:
 
-## Step 2: Install Dependencies
-
-```powershell
-python -m pip install -r requirements.txt
+```bash
+bash ./scripts/setup_unix.sh
+source soft_comp/bin/activate
 ```
 
-Verify:
+You should see `(soft_comp)` in your terminal prompt after activation.
 
-```powershell
-python -c "import torch, cv2, numpy, ultralytics; print('ok')"
+## Step 2: Verify The Environment
+
+```bash
+python -m pytest -q
 ```
 
 ## Step 3: Run Tests First
-
-```powershell
-python -m pytest -q
-```
 
 If tests pass, your setup is healthy.
 
