@@ -1,0 +1,18 @@
+{
+  "device": "cuda",
+  "img_size": {
+    "width": 320,
+    "height": 192
+  },
+  "dataset": {
+    "train_size": 4900,
+    "val_size": 1050
+  },
+  "results": {
+    "best_epoch": 19,
+    "best_score": 39.83115227655931,
+    "history_path": "/kaggle/working/artifacts/v2/history.json",
+    "best_checkpoint": "/kaggle/working/artifacts/v2/best.pt",
+    "last_checkpoint": "/kaggle/working/artifacts/v2/last.pt"
+  }
+}

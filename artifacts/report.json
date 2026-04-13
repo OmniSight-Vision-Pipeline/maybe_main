@@ -1,0 +1,279 @@
+{
+  "dataset": {
+    "test_root": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test",
+    "num_images": 2000
+  },
+  "overall": {
+    "clean_map50": 0.0,
+    "corrupted_map50": 0.0,
+    "restored_map50": 0.0,
+    "recovered_map_drop_fraction": 0.0
+  },
+  "classes": {
+    "person": {
+      "clean_ap50": 0.0,
+      "corrupted_ap50": 0.0,
+      "restored_ap50": 0.0
+    },
+    "bicycle": {
+      "clean_ap50": 0.0,
+      "corrupted_ap50": 0.0,
+      "restored_ap50": 0.0
+    },
+    "car": {
+      "clean_ap50": 0.0,
+      "corrupted_ap50": 0.0,
+      "restored_ap50": 0.0
+    }
+  },
+  "metadata_samples": [
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/b2e9eaa4-00000000.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/b2e9eaa4-00000000.txt",
+      "rain_level": 4,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 42,
+      "corruption_tags": [
+        "rain"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/bba0d1b5-00000000.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/bba0d1b5-00000000.txt",
+      "rain_level": 0,
+      "fog_level": 3,
+      "dark_level": 5,
+      "combined_mode": "fog_dark",
+      "seed": 10015,
+      "corruption_tags": [
+        "fog",
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/c487163b-df7caa96.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/c487163b-df7caa96.txt",
+      "rain_level": 0,
+      "fog_level": 1,
+      "dark_level": 4,
+      "combined_mode": "fog_dark",
+      "seed": 19988,
+      "corruption_tags": [
+        "fog",
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cbe24b7c-1407ffa0.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cbe24b7c-1407ffa0.txt",
+      "rain_level": 5,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 29961,
+      "corruption_tags": [
+        "rain"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cc32bf99-dd301f01.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cc32bf99-dd301f01.txt",
+      "rain_level": 0,
+      "fog_level": 0,
+      "dark_level": 1,
+      "combined_mode": "none",
+      "seed": 39934,
+      "corruption_tags": [
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cd583ed2-a1702aca.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cd583ed2-a1702aca.txt",
+      "rain_level": 0,
+      "fog_level": 2,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 49907,
+      "corruption_tags": [
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cf4dd386-d01a7147.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/cf4dd386-d01a7147.txt",
+      "rain_level": 4,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 59880,
+      "corruption_tags": [
+        "rain"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d43b5a98-00000000.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d43b5a98-00000000.txt",
+      "rain_level": 0,
+      "fog_level": 0,
+      "dark_level": 2,
+      "combined_mode": "none",
+      "seed": 69853,
+      "corruption_tags": [
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d458cf06-00000000.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d458cf06-00000000.txt",
+      "rain_level": 5,
+      "fog_level": 5,
+      "dark_level": 0,
+      "combined_mode": "rain_fog",
+      "seed": 79826,
+      "corruption_tags": [
+        "rain",
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d6346aa2-083f3cc9.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d6346aa2-083f3cc9.txt",
+      "rain_level": 1,
+      "fog_level": 2,
+      "dark_level": 0,
+      "combined_mode": "rain_fog",
+      "seed": 89799,
+      "corruption_tags": [
+        "rain",
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d6a288b4-5ec72a0e.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/d6a288b4-5ec72a0e.txt",
+      "rain_level": 5,
+      "fog_level": 2,
+      "dark_level": 0,
+      "combined_mode": "rain_fog",
+      "seed": 99772,
+      "corruption_tags": [
+        "rain",
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/dae569ed-7ff45e8a.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/dae569ed-7ff45e8a.txt",
+      "rain_level": 0,
+      "fog_level": 5,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 109745,
+      "corruption_tags": [
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/dce4c39f-00000000.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/dce4c39f-00000000.txt",
+      "rain_level": 5,
+      "fog_level": 3,
+      "dark_level": 0,
+      "combined_mode": "rain_fog",
+      "seed": 119718,
+      "corruption_tags": [
+        "rain",
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/df34b4be-c313d03a.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/df34b4be-c313d03a.txt",
+      "rain_level": 0,
+      "fog_level": 4,
+      "dark_level": 5,
+      "combined_mode": "fog_dark",
+      "seed": 129691,
+      "corruption_tags": [
+        "fog",
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e06b622f-4d59fd53.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e06b622f-4d59fd53.txt",
+      "rain_level": 5,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 139664,
+      "corruption_tags": [
+        "rain"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e2874559-c0fd2807.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e2874559-c0fd2807.txt",
+      "rain_level": 5,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 149637,
+      "corruption_tags": [
+        "rain"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e623061c-257270cc.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e623061c-257270cc.txt",
+      "rain_level": 0,
+      "fog_level": 3,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 159610,
+      "corruption_tags": [
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e693b520-335a8dcc.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e693b520-335a8dcc.txt",
+      "rain_level": 0,
+      "fog_level": 4,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 169583,
+      "corruption_tags": [
+        "fog"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e89ed929-0899f063.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e89ed929-0899f063.txt",
+      "rain_level": 0,
+      "fog_level": 4,
+      "dark_level": 3,
+      "combined_mode": "fog_dark",
+      "seed": 179556,
+      "corruption_tags": [
+        "fog",
+        "dark"
+      ]
+    },
+    {
+      "image_id": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e8f8e8c7-522fa93e.jpg",
+      "label_path": "/kaggle/input/datasets/solesensei/solesensei_bdd100k/bdd100k/bdd100k/images/10k/test/e8f8e8c7-522fa93e.txt",
+      "rain_level": 3,
+      "fog_level": 0,
+      "dark_level": 0,
+      "combined_mode": "none",
+      "seed": 189529,
+      "corruption_tags": [
+        "rain"
+      ]
+    }
+  ]
+}
