@@ -6,4 +6,4 @@ ultralytics>=8.2
 onnx>=1.16
 onnxruntime>=1.18
 tqdm>=4.66
-pytest>=8.2
+pytest>=9.0.3
