@@ -41,10 +41,14 @@ class OmniSightDataset(Dataset):
         
         img_t = cv2.imread(path_t)
         img_t_prev = cv2.imread(path_t_prev)
-        
+
         if img_t is None: img_t = np.zeros((256, 256, 3), dtype=np.uint8)
-        if img_t_prev is None: img_t_prev = np.zeros((256, 256, 3), dtype=np.uint8)
-        
+        if img_t_prev is None: img_t_prev = np.zeros((256, 256, 3), dtype=np.uint8) 
+
+        # Add these two lines to shrink the HD images so they fit in VRAM!
+        img_t = cv2.resize(img_t, (256, 256))
+        img_t_prev = cv2.resize(img_t_prev, (256, 256))
+
         img_t = cv2.cvtColor(img_t, cv2.COLOR_BGR2RGB)
         img_t_prev = cv2.cvtColor(img_t_prev, cv2.COLOR_BGR2RGB)
         

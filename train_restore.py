@@ -24,7 +24,7 @@ def main(args):
     print(f"Using device: {device}")
 
     # Dummy datasets since real data is missing. Modify paths for production.
-    dataset = OmniSightDataset(bdd100k_dir="data/bdd100k", real_rain_dir="data/real_rain")
+    dataset = OmniSightDataset(bdd100k_dir="/home/jiit_992401210050/Documents/MyDatasets/BDDK/archive/bdd100k/bdd100k/images/100k/train", real_rain_dir="")
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=0)
 
     model = Restormer(in_channels=3, out_channels=3, dim=32).to(device)
