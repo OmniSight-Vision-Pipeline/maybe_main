@@ -2,6 +2,28 @@
 
 This repository contains the OmniSight pipeline and training scripts for robust autonomous vision restoration. It is designed to remove rain, fog, and lens distortion from video feeds to improve downstream object detection (e.g., YOLOv8) performance in adverse weather conditions. The codebase is designed to be fully compatible with Linux environments for seamless cloud training and deployment.
 
+## 👩‍💻 Contributors
+
+### Anushka
+- Contributed to early development of the restoration pipeline  
+- Trained baseline models on the BDD100k-10k subset (Kaggle)  
+- Established initial performance benchmarks (PSNR ~23 dB, SSIM ~0.80)  
+- Worked on training setup, experimentation, and validation  
+- Contributed to the foundation used for later architectural improvements  
+
+🔗 Related work:
+- https://github.com/Anushka-XD/omnisight-bdd10k  
+- https://github.com/Anushka-XD/Restormer-architecture_omnisight-  
+
+---
+
+### Gunjan
+- Led development of the current version of the project  
+- Improved model architecture and overall system design  
+- Expanded dataset usage and refined training strategy  
+- Implemented temporal distillation and pipeline optimization  
+- Structured and documented the repository in its current form 
+
 ## Project Structure
 
 - `train_restore.py`: Trains the Restormer Teacher model on paired clean and synthetically corrupted images.
