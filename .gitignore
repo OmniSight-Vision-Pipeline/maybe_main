@@ -1,6 +1,4 @@
 __pycache__/
-*.pt
-*.pth
 *.mp4
 soft_venv/
 data/bdd100k/
